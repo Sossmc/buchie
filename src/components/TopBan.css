@@ -1,0 +1,54 @@
+.site-topban{
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(90deg,#222325,#3b3c3f,#222325);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.p,.a{
+    color: white;
+}
+
+.tb-left{
+    height: 100%;
+}
+
+.tb-left img,.tb-left div{
+    margin: 10px;
+    /*background: aliceblue;*/
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+
+}
+
+.tb-list{
+    width: max-content;
+    display: flex;
+    align-items: center;
+}
+
+.tb-list .item{
+    line-height:40px;
+    height: 40px;
+    margin: 40px;
+}
+
+.tb-list .item a{
+    color: white;
+}
+
+.tb-right{
+    width: max-content;
+    display: flex;
+    align-items: center;
+}
+
+.tb-right div{
+    color: white;
+    margin: 10px;
+    line-height:40px;
+}
